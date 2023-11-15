@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/inscription.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/menui.css">
+</head>
+<body>
+   
+    <main>
+        <header>
+            <nav>
+               
+                <div class="menu" id="nav">
+                    <div class="gsbt">
+                        <a href="#"> <p><i> groupe scolaire braint trust</i></p></a>
+                     </div>
+                     <a href="../gsbt.html"> <h1 id="logo"><img src="../image/LOGO2.png" alt=""></h1></a>
+                    <ul>
+
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="payement.html">Paiement</a></li>
+                        <li><a href="idriss.html">Inscription</a></li>
+                        <li><a href="#">gsbt</a>
+                            <ul>
+                                <li><a href="presentation.html">présentation</a></li>
+                                <li><a href="admini.html">administration</a></li>
+                                
+                                </ul>
+                        </li>
+                        <li><a href="../gsbt.html">Accueil</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="dep">
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LbcTetoEc1xkLIeXEaX14Wkp7u6HeI1P" width="640" height="480"></iframe>
+    <form action="">
+        <fieldset>
+        <h1>Demande d'information</h1>
+        <input type="txt" name="nom" placeholder="entrer votre nom" class="forminput" required>
+			
+        <input type="txt" name="nom" placeholder="entrer votre prénom" class="forminput" required><br>
+        <input type="email" name="nom" placeholder="entrer votre email" class="forminputs" required><br>
+        <input type="txt" name="nom" placeholder="entrer votre numéro de téléphone" class="forminputs"><br>
+        <select name="" id="" class="forminpute">
+            <option value="">A qui destinez vous ce message </option>
+            <option value="">Directeur</option>
+            <option value="">secretaire</option>
+            <option value="">comptable</option>
+            <option value="">PDG</option>
+        </select>
+        <input type="txt" name="nom" placeholder="Objet"  class="forminputs"><br>
+        <textarea name="" id=""  rows="10" class="forminputs" placeholder="votre message"></textarea><br>
+        <input type="submit" name="" value="Envoyer" id="" class="annulée">
+    </fieldset>
+    </form>
+</div>
+    <footer>
+        <div class="footer-conteneur">
+            <div class="blocfooter-left">
+                <h3>listes des services</h3>
+                <p class="service">
+                    <a href="#"> direction
+                    <a href="#">secretariat</a>
+                    <a href="#">service de comptable</a>
+                </p>
+
+
+            </div>
+            <div class="blocfooter-right">
+                <h3>restons en contact</h3>
+                <p> tel: <span>002697734563</span> </p>
+                <p> email:<span>ecolegsbt@gmail.com</span> </p>
+                <p><i>M</i>ORONI mission-katholic</p>
+            </div>
+            <div class="footer-centre">
+                <h3>nos reseaux</h3>
+                <p class="reseaux">
+                    <a href="facebook.com"><img src="../image/facebook.png" alt=""></a>
+                    <a href="twitter.com"><img src="../image/twitter.png" alt=""></a>
+                    <a href="flickr.com"><img src="../image/flickr.png" alt="">
+                        <a href="rss.com"><img src="../image/rss.png" alt=""></a>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+    <script type="text/javascript">
+        var nav = document.getElementById('nav');
+        window.onscroll = function(){
+            if(window.pageYOffset >100){
+                nav.style.background ="#007bff";
+                
+                
+            }else{
+                nav.style.background ="#061466"
+            }
+        }
+    </script>
+</body>
+</html>

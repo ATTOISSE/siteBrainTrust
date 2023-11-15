@@ -1,0 +1,58 @@
+body {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    background-color: #eadede;
+    font-family: calibri;
+}
+
+h1 {
+    font-family: candles;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    background-image: url(fond_jaune.png);
+    color: blue;
+    position: sticky;
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-shadow: 5px 5px 50px #1a1919;
+    box-shadow: 0px 5px 20px #1a1919;
+    border-radius: 5px;
+    font-size: 35px;
+    text-transform: uppercase;
+    z-index: 9999;
+}
+
+main {
+    margin: 0px 200px;
+}
+
+.presentation {
+    background-color: rgb(160, 198, 199);
+}
+
+.presentation:hover {
+    box-shadow: 0px 5px 20px #1a1919;
+    transition: 1s;
+}
+
+.titre {
+    position: sticky;
+    top: 0;
+}
+
+.img {
+    width: 55%;
+    float: right;
+    height: 380px;
+    border-radius: 5px;
+}
+
+p {
+    margin-left: 5px;
+    z-index: 0;
+    position: relative;
+    top: 0;
+}

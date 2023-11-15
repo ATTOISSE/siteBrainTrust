@@ -1,0 +1,49 @@
+
+h1{
+    text-transform: uppercase;
+    color: #061466;
+}
+.h1{
+    background-color: #dedeed;
+    width: 40%;
+   
+    padding: 1px;
+    border-radius: 50px;
+    color: #251874;
+    border-bottom:#061466 solid 8px ;
+    border-left:#061466 solid 8px ;
+    margin-top: 130px;
+}
+#h1{
+    border-top: rgb(16, 147, 180) solid 5px ; width: 80px;   margin-top: 30px
+}
+.h1 h1{
+    text-align: center;
+}
+.texte{
+    
+    width: 70%;
+    margin-left: 260px;
+    text-align: justify;
+}
+.classe{
+    align-items: center;
+    display: inline-block;
+    margin: 5px;
+    transition: all 2s ease-in-out;
+    
+}
+.classe:hover{
+    background-color:  rgb(123, 173, 175);
+    color: white;
+    transform: rotate(10deg);
+    
+}
+.classe img{
+    width:280px;
+    height: 200px;
+}
+.classe h1{
+    text-align: center;
+    border: #061466 solid 4px ;
+}

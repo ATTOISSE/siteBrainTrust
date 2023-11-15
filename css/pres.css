@@ -1,0 +1,19 @@
+.para{
+    width: 70%px;
+    margin-left: 160px;
+    margin-right: 160px;
+    text-align: justify;
+}
+h1{
+    text-transform: uppercase;
+    color: #061466;
+}
+@media only screen and (max-width: 996px){
+    
+	.para{
+        width: 100%; 
+        margin-left: 130px;
+    margin-right: 60px; 
+    }
+    }
+}

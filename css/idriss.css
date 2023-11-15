@@ -1,0 +1,72 @@
+body{
+    background-color: lavender;
+   
+}
+form{
+    padding-top: 100px;
+}
+.forminput{
+width: 500px;
+padding: 6px;
+margin-top: 6px;
+margin-bottom: 6px;
+border: none;
+border-radius: 5px;
+border: 2px solid#251874;
+}
+.inscription{
+
+}
+h1{
+font-size: 25px;
+text-align: center;
+color: #251874;
+}
+.inscr{
+    background-color: #dedeed;
+    width: 40%;
+   
+    padding: 1px;
+    border-radius: 50px;
+    color: #251874;
+    border-bottom:#061466 solid 8px ;
+    border-left:#061466 solid 8px ;
+    
+}
+.forminput:hover{
+background-color: paleturquoise;
+border: 2px solid green;
+width: 520px;
+}
+::placeholder{
+text-align:center;
+}
+label{
+width: 200px;
+display: inline-block;
+}
+.annulé{
+width: 10%;
+padding: 5px;
+border-radius: 5px;
+background-color: paleturquoise;
+
+}
+.annulé:hover{
+width: 14%;
+background-color: #251874;
+color: white;
+}
+.annulée{
+width: 10%;
+padding: 5px;
+border-radius: 5px;
+margin-left: 200px;
+background-color: paleturquoise;
+}
+.annulée:hover
+{
+width: 14%;
+background-color:#251874;
+color: white;
+}

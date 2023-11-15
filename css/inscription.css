@@ -1,0 +1,106 @@
+body{
+    background-color: lavender;
+   
+}
+form{
+    padding-right:7%;
+}
+.dep{
+    padding-top: 140px;
+}
+form h1{
+    border: olive 2px dashed ;
+    border-radius: 5px;
+    text-align: center;
+    color: #251874;
+}
+ .forminput{
+width: 295px;
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+border: 2px solid #251874;
+background-color:lavender ;
+}
+fieldset{
+border: 2px dashed rgb(73, 79, 170);
+border-radius: 8px;
+}
+iframe{
+float: left;
+margin-right: 70px;
+padding-left:7%;
+width:35%;
+border:none;
+}
+.forminputs{
+width: 614px;
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+border: 2px solid #251874;
+background-color:lavender ;
+}
+.forminput:hover{
+    background-color: paleturquoise;
+    border: 2px solid #187468;
+    
+    }
+ .forminputs:hover{
+    background-color: paleturquoise;
+    border: 2px solid #187468;
+ }   
+.annulée{
+width: 20%;
+padding: 5px;
+border-radius: 5px;
+background-color: paleturquoise;
+}
+.annulée:hover
+{
+width: 24%;
+background-color: #251874;
+color: white;
+}
+.forminpute{
+width: 635px;
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+border: 2px solid #251874;
+background-color:lavender ;
+}
+@media only screen and (max-width: 996px){
+    
+	.menu ul{
+        background-color: #251874;
+        
+        float: auto;
+        margin-top: 50px;
+    }
+    .menu{
+        height: 150px;
+    }
+    iframe{
+        width: 530px;
+    }
+    #logo{
+        margin-left: 230px;
+    }
+	.menu li{
+        
+        margin: 5px;
+        display: inline;
+        
+        
+    }
+    .menu li a{
+        font-size: 25px;
+    }
+}
